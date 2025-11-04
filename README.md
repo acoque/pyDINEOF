@@ -1,10 +1,14 @@
 # pyDINEOF
+![GitHub License](https://img.shields.io/github/license/acoque/pyDINEOF)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyDINEOF)
+![PyPI - Version](https://img.shields.io/pypi/v/pyDINEOF)
+![PyPI - Types](https://img.shields.io/pypi/types/pyDINEOF)
 
 ## Table of Contents
 
 - [About](#about)
-- [Dependencies](#dependencies)
 - [Installation](#installation)
+- [Note](#note)
 - [License](#license)
 
 ## About
@@ -24,13 +28,27 @@ approach is explained.
 For more information about the Lanczos solver, see
 [Toumazou and Cretaux (2001)](https://doi.org/10.1175/1520-0493(2001)129%3C1243:UALEIT%3E2.0.CO;2).
 
-## Dependencies
-
-pyDINEOF requires Python >= 3.10 and the following packages: numpy, pandas, scipy and xarray.
-
 ## Installation
 
-pyDINEOF can be installed from source. To do so, you will first have to clone the GitHub repository:
+### Required dependencies
+
+- Python (3.10 or later)
+- numpy
+- pandas
+- scipy
+- xarray
+
+### Instructions
+
+pyDINEOF is a pure Python package. The easiest way to get it installed is to use pip:
+
+```shell
+$ python -m pip install pyDINEOF
+```
+
+---
+
+pyDINEOF can also be installed from source. To do so, you will first have to clone the GitHub repository:
 ```shell
 $ git clone https://github.com/acoque/pyDINEOF.git
 $ cd pyDINEOF
